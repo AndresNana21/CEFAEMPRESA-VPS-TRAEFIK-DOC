@@ -46,11 +46,3 @@ Para potenciar la productividad y facilitar la creación de módulos independien
 
 ---
 
-### ¿Qué mejoré exactamente?
-
-1. **Ortografía Técnica:** Corregí palabras críticas como "versiones", "recibir", "desarrollo", "GitHub", "implementaron" y "características".
-2. **Precisión de Conceptos:** Cambié "sub máquinas virtuales" por "contenedores", que es el término técnicamente correcto para Docker.
-3. **Jerarquía Visual:** Utilicé negritas para resaltar conceptos clave y bloques de cita para notas importantes.
-4. **Enfoque Profesional:** El lenguaje ahora está orientado a explicar el **por qué** de cada tecnología (ej. "orquestación", "escalabilidad", "aislamiento").
-
-¿Te gustaría que añada una sección de **"Requisitos de Instalación"** para que otros desarrolladores sepan qué comandos ejecutar para montar el proyecto en sus computadoras? 
