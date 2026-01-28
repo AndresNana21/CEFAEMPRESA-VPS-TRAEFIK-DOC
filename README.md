@@ -51,7 +51,7 @@ Aquí encontrarás guías detalladas para configurar tu entorno y entender las h
 
 | Herramienta | Descripción | Guía de Instalación / Uso |
 | --- | --- | --- |
-| **WSL2** | Windows Subsystem for Linux: El estándar para desarrollar en Linux desde Windows. | [🔗 Configurar WSL](https://github.com/AndresNana21/CEFAEMPRESA-VPS-TRAEFIK-DOC/doc/wsl) |
+| **WSL2** | Windows Subsystem for Linux: El estándar para desarrollar en Linux desde Windows. | [🔗 Configurar WSL](https://github.com/AndresNana21/CEFAEMPRESA-VPS-TRAEFIK-DOC/documentacion/wsl) |
 | **Laragon** | Entorno de desarrollo local rápido y potente para Windows. | [🔗 Configurar Laragon](https://github.com/AndresNana21/CEFAEMPRESA-VPS-TRAEFIK-DOC/doc/laragon) |
 | **Filament PHP** | Panel administrativo elegante para formularios y recursos de Laravel. | [🔗 Guía de Filament](https://github.com/AndresNana21/CEFAEMPRESA-VPS-TRAEFIK-DOC/doc/filament) |
 | **Laravel** | Framework PHP para artesanos de la web. | [🔗 Documentación Laravel](https://github.com/AndresNana21/CEFAEMPRESA-VPS-TRAEFIK-DOC/doc/laravel) |
