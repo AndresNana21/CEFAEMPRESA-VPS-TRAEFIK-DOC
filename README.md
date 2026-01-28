@@ -45,4 +45,18 @@ Para potenciar la productividad y facilitar la creación de módulos independien
 
 
 ---
+## 📚 Centro de Documentación
 
+Aquí encontrarás guías detalladas para configurar tu entorno y entender las herramientas clave del proyecto.
+
+| Herramienta | Descripción | Guía de Instalación / Uso |
+| --- | --- | --- |
+| **WSL2** | Windows Subsystem for Linux: El estándar para desarrollar en Linux desde Windows. | [🔗 Configurar WSL](https://github.com/AndresNana21/CEFAEMPRESA-VPS-TRAEFIK-DOC/doc/wsl) |
+| **Laragon** | Entorno de desarrollo local rápido y potente para Windows. | [🔗 Configurar Laragon](https://github.com/AndresNana21/CEFAEMPRESA-VPS-TRAEFIK-DOC/doc/laragon) |
+| **Filament PHP** | Panel administrativo elegante para formularios y recursos de Laravel. | [🔗 Guía de Filament](https://github.com/AndresNana21/CEFAEMPRESA-VPS-TRAEFIK-DOC/doc/filament) |
+| **Laravel** | Framework PHP para artesanos de la web. | [🔗 Documentación Laravel](https://github.com/AndresNana21/CEFAEMPRESA-VPS-TRAEFIK-DOC/doc/laravel) |
+| **Módulos** | Estructura modular para separar la lógica del negocio. | [🔗 Guía de Módulos](https://github.com/AndresNana21/CEFAEMPRESA-VPS-TRAEFIK-DOC/doc/modules) |
+| **Traefik** | Configuración del Proxy Inverso para el despliegue en VPS. | [🔗 Guía de Traefik](https://github.com/AndresNana21/CEFAEMPRESA-VPS-TRAEFIK-DOC/doc/traefik) |
+| **Git** | Estándares de Git Flow y manejo de repositorios. | [🔗 Guía de Git](https://github.com/AndresNana21/CEFAEMPRESA-VPS-TRAEFIK-DOC/doc/git) |
+
+---
