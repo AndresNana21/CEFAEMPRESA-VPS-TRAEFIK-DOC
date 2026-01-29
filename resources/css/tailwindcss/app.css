@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+
+@theme {
+  /* Definimos tus colores personalizados */
+  --color-principal: #ff6600;
+  --color-principal-claro: #ff8533;
+  --color-principal-trans: rgba(255, 102, 0, 0.8);
+  --color-fondo: #ffffff;
+}
+
+/* Opcional: Si quieres una clase de desenfoque personalizada para el nav */
+.glass-nav {
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
