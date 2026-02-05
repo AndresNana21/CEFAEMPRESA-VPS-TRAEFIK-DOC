@@ -19,7 +19,7 @@
         "psr-4": {
             "Modules\\Sica\\": "app/",
             "Modules\\Sica\\Database\\Factories\\": "database/factories/",
-            "Modules\\Sica\\Database\\Seeders\\": "database/seeders/",
+            "Modules\\Sica\\Database\\Seeders\\": "database/seeders/"
         }
     },
     "autoload-dev": {
