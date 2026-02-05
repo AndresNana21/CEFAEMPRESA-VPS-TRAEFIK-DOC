@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/sica",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Sica\\": "app/",
+            "Modules\\Sica\\Database\\Factories\\": "database/factories/",
+            "Modules\\Sica\\Database\\Seeders\\": "database/seeders/",
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Sica\\Tests\\": "tests/"
+        }
+    }
+}
