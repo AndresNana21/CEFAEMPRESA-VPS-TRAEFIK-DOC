@@ -20,6 +20,14 @@ class ProgramResource extends Resource
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
 
+    // 1. EL NOMBRE EN EL MENÚ (Sobre nombre)
+    protected static ?string $navigationLabel = 'Programas de formación';
+
+    // 2. EL GRUPO (Desplegable)
+    public static function getNavigationGroup(): ?string
+    {
+        return 'Gesion academica';
+    }
     public static function form(Schema $schema): Schema
     {
         return ProgramForm::configure($schema);

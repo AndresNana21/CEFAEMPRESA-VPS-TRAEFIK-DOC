@@ -20,6 +20,14 @@ class ModuleResource extends Resource
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
 
+    // 1. EL NOMBRE EN EL MENÚ (Sobre nombre)
+    protected static ?string $navigationLabel = 'Modulos';
+
+    // 2. EL GRUPO (Desplegable)
+    public static function getNavigationGroup(): ?string
+    {
+        return 'Gesion sitema';
+    }
     public static function form(Schema $schema): Schema
     {
         return ModuleForm::configure($schema);

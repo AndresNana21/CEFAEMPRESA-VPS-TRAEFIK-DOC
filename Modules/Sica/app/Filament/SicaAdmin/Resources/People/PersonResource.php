@@ -20,6 +20,17 @@ class PersonResource extends Resource
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
 
+
+
+    // 1. EL NOMBRE EN EL MENÚ (Sobre nombre)
+    protected static ?string $navigationLabel = 'Personas';
+
+    // 2. EL GRUPO (Desplegable)
+    public static function getNavigationGroup(): ?string
+    {
+        return 'Gestión de Usuarios';
+    }
+
     public static function form(Schema $schema): Schema
     {
         return PersonForm::configure($schema);

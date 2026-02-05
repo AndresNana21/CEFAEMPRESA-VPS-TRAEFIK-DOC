@@ -20,6 +20,14 @@ class FichaResource extends Resource
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
 
+    // 1. EL NOMBRE EN EL MENÚ (Sobre nombre)
+    protected static ?string $navigationLabel = 'Fichas';
+
+    // 2. EL GRUPO (Desplegable)
+    public static function getNavigationGroup(): ?string
+    {
+        return 'Gesion academica';
+    }
     public static function form(Schema $schema): Schema
     {
         return FichaForm::configure($schema);
